@@ -14,14 +14,14 @@ export default function NavBar() {
         {/* Middle navigation links */}
         <div className="categories flex space-x-8">
           <div className="text-black">Home</div>
-          <div className="text-black">Career</div>
-          <div className="text-black">Housing</div>
-          <div className="text-black">Legal</div>
+          <div className="text-black">Features</div>
+          <div className="text-black">FAQ</div>
+          <div className="text-black">Support</div>
         </div>
 
         {/* Signup button on the right */}
         <div>
-          <button className="bg-green-500 text-black px-6 py-2 rounded-full">
+          <button className="bg-orange-500 text-black hover:bg-orange-600 px-6 py-2 rounded-full">
             Sign Up
           </button>
         </div>

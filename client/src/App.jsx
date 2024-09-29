@@ -1,18 +1,17 @@
 import './App.css'
+import Hero from './components/Hero';
 import NavBar from './components/NavBar';
-
-
-const idol = [
-  "Suzy",
-  "Yeaji",
-  "IU"
-]
-
+import FeaturesSection from './components/Features';
+import FAQ from './components/FAQ';
 export default function App()
 {
   return(
 <div>
-    <NavBar idols = {idol} />
+    <NavBar />
+    <Hero/>
+    <FeaturesSection/>
+    <FAQ/>
+
 </div>
   );
 }
