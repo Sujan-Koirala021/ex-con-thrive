@@ -9,7 +9,7 @@ export default function FAQ() {
     };
 
     return (
-        <div className="flex flex-row lg:flex-col p-8 pr-12 pl-12 rounded-lg bg-gray-50">
+        <div className="flex flex-row lg:flex-col  p-8 pr-12 pl-12 rounded-lg bg-gray-50">
             {/* Left side image and heading */}
             <div className="flex-1 mb-8 lg:mb-0 lg:mr-8">
                 <h2 className="text-4xl font-bold mb-4">You’re probably wondering...</h2>

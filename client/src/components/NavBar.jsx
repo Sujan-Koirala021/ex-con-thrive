@@ -16,7 +16,6 @@ export default function NavBar() {
           <div className="text-black">Home</div>
           <div className="text-black">Features</div>
           <div className="text-black">FAQ</div>
-          <div className="text-black">Support</div>
         </div>
 
         {/* Signup button on the right */}

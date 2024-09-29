@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import NavBar from './components/NavBar';
 import FeaturesSection from './components/Features';
 import FAQ from './components/FAQ';
+import Footer from './components/Footer';
 export default function App()
 {
   return(
@@ -11,6 +12,7 @@ export default function App()
     <Hero/>
     <FeaturesSection/>
     <FAQ/>
+    <Footer/>
 
 </div>
   );
