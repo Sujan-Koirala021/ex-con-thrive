@@ -32,7 +32,7 @@
 
 
 ## Introduction
-Ex-Cons Thrive is a project designed to help formerly incarcerated individuals reintegrate into society by providing job search assistance, legal support, mental health services, and more. This project draws inspiration from the hardships faced by ex-convicts during reintegration, including the stigma, lack of opportunities, and legal barriers that often limit their options.
+Ex-Cons Thrive is a project designed to help formerly incarcerated individuals reintegrate into society by providing job search assistance, legal support, mental health services, and more. This project draws inspiration from the hardships faced by ex-convicts during reintegration, including the stigma, lack of opportunities, and legal barriers that often limit their options. It makes use of Llama3-8b-8192 and Mixtral-8x7b-32768 AI model.
 
 
 ## Problem Statement
@@ -114,9 +114,6 @@ npm run dev
 ```
 
 
-
-
-
 ## Usage
 
 #### Visit the frontend application:
@@ -126,12 +123,13 @@ Open your browser and navigate to `http://localhost:5173/`.
 
 
 ## Screenshots
-![1land](https://github.com/Sujan-Koirala021/eventique/assets/84112374/c92dd45b-7afd-4631-b29e-2183a6b22046)
-![2about](https://github.com/Sujan-Koirala021/eventique/assets/84112374/5446ac8d-7238-426e-99c5-f25da97f326b)
-![3signup](https://github.com/Sujan-Koirala021/eventique/assets/84112374/81d0a910-1894-4fda-a54a-3259742b9db1)
-![3dashboard](https://github.com/Sujan-Koirala021/eventique/assets/84112374/a16c07f9-033b-4c3e-b3e1-8854e459a7ff)
-![4deny](https://github.com/Sujan-Koirala021/eventique/assets/84112374/c55be7ac-cc75-4dbc-9f49-dbdb4a21825a)
-![5newEvent](https://github.com/Sujan-Koirala021/eventique/assets/84112374/f780a187-7457-4de6-a685-e086bd674dc8)
+![1](https://github.com/user-attachments/assets/122a51a0-9403-474b-a96a-7739f1b4f2c0)
+![2](https://github.com/user-attachments/assets/a979bad6-adbb-47a9-a8c2-de7aa6160319)
+![3](https://github.com/user-attachments/assets/f035301d-9840-45f8-9c1d-3dd5e4a41a6f)
+![4](https://github.com/user-attachments/assets/767cecdc-ac16-4935-a38f-cfc8b18ea6fc)
+![5](https://github.com/user-attachments/assets/708731f3-7dd1-42cd-a4a4-23c5de069832)
+![6](https://github.com/user-attachments/assets/97601e94-488b-44ba-bd35-49183709f2b0)
+
 
 
 
@@ -143,7 +141,7 @@ We welcome contributions from the community! If you'd like to contribute to Even
 
 2. **Clone Your Fork**:
    ```bash
-   git clone https://github.com/Sujan-Koirala021/eventique.git
+   git clone https://github.com/Sujan-Koirala021/ex-con-thrive.git
    ```
 
 3. **Create a Branch**:
@@ -173,8 +171,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 - [React](https://reactjs.org/) library for web and native user interfaces
 - [Tailwind](https://tailwindcss.com/) for the styling
-- [Express JS](https://expressjs.com/) for the fast and efficient web framework
-- [Mongoo DB](https://www.mongodb.com/docs/) for database
 
 
 ---
