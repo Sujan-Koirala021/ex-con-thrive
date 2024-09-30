@@ -48,10 +48,6 @@ const faqData = [
         answer: 'Our platform connects ex-cons with job opportunities by matching their skills with available positions. We also offer resume building and interview preparation resources.'
     },
     {
-        question: 'What kind of housing support is provided?',
-        answer: 'We help connect individuals with transitional housing programs, low-cost rentals, and provide guidance on housing rights.'
-    },
-    {
         question: 'Can I get legal assistance for record expungement?',
         answer: 'Yes, we offer resources and legal support for record expungement and connecting with pro-bono legal services to help clear your record.'
     },

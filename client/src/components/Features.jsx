@@ -26,8 +26,8 @@ const FeaturesSection = () => {
             <div className="flex justify-center mb-4 p-8">
               <img src={Housing} alt="Housing Icon" className="w-20 h-20" />
             </div>
-            <h3 className="text-xl font-semibold mb-2">Housing Support</h3>
-            <p className="text-gray-600">Help with transitional housing, low-cost rentals, and housing rights guidance.</p>
+            <h3 className="text-xl font-semibold mb-2">Mental Health Support</h3>
+            <p className="text-gray-600">Receive guidance on mental health resources, counseling services, and strategies for emotional well-being during reintegration</p>
           </div>
 
           {/* Legal Feature */}

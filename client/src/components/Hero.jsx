@@ -1,5 +1,7 @@
 import React from "react";
 import heroImg from "../assets/img/heroImg.png"
+import { Link } from 'react-router-dom';
+
 
 function Hero() {
   return (
@@ -11,9 +13,11 @@ function Hero() {
           <div className="pt-6 text-2xl">Empowering Second Chances</div>
           <div className="pt-4 text-lg">Rebuild, Reinvent, Rediscover your path to success.</div>
           <div className="pt-6">
+            <Link to="/services">
             <button className="pl-6 pr-6 p-3 border-none bg-orange-500 text-black rounded-full hover:bg-orange-600">
               Start your Journey <span>&#8594;</span>
             </button>
+            </Link>
           </div>
           <div className="flex space-x-8 pt-12 text-2xl">
             <div>
