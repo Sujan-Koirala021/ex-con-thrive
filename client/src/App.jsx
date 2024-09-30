@@ -1,27 +1,80 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+import Hero from './components/Hero';
 import Landing from './components/Landing';
 import Services from './components/Services';
 import JobAssistance from './components/Job/JobAssistance';
 import MentalSupport from './components/Mental/MentalSupport';
 import LegalSupport from './components/Legal/LegalSupport';
-// Import your other service-specific components here
+
+
+import {
+  createBrowserRouter,
+  RouterProvider, Outlet
+} from "react-router-dom";
+import FeaturesSection from './components/Features';
+import FAQ from './components/FAQ';
+
+
+const Layout = () => {
+  return (
+    <>
+      <NavBar />
+      <Outlet />
+      <Footer />
+    </>
+  );
+}
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      {
+        path: '/',
+        element: <Landing />
+      },
+      {
+        path: '/services',
+        element: <Services />
+      },
+      {
+        path: '/job-assistance',
+        element: <JobAssistance />
+      },
+      {
+        path: '/mental-support',
+        element: <MentalSupport />
+      },
+      {
+        path : '/legal-support',
+        element: <LegalSupport/>
+      },
+      {
+        path : '/features',
+        element: <FeaturesSection/>
+      },
+      {
+        path : '/faq',
+        element: <FAQ/>
+      }
+    ]
+  },
+
+]);
+
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/services" element={<Services />} />
-        {/* Add your routes for job-assistance, mental-support, legal-support */}
-        <Route path="/job-assistance" element={<JobAssistance />} />
-        <Route path="/mental-support" element={<MentalSupport />} />
-        <Route path="/legal-support" element={<LegalSupport />} />
+    <div className="app">
 
-      </Routes>
-    </Router>
+        <RouterProvider router={router} />
+
+    </div>
   );
 }
 
+
+
 export default App;
-
-

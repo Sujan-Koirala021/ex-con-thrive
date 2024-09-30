@@ -14,9 +14,15 @@ export default function NavBar() {
 
         {/* Middle navigation links */}
         <div className="categories flex space-x-8">
+          <Link to="/">
           <div className="text-black">Home</div>
+          </Link>
+          <Link to= "/features">
           <div className="text-black">Features</div>
+          </Link>
+          <Link to="/faq">
           <div className="text-black">FAQ</div>
+          </Link>
         </div>
 
         {/* Signup button on the right */}

@@ -10,11 +10,9 @@ function Landing() {
   return (
     <div>
 
-    <NavBar/>
     <Hero/>
     <Features/>
     <FAQ/>
-    <Footer/>
 
     </div>
 

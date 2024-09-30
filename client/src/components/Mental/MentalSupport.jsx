@@ -80,7 +80,7 @@ const MentalSupport = () => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto mt-10 p-6 bg-white shadow-xl rounded-xl">
+    <div className="max-w-2xl mx-auto mt-10 mb-10 p-6 bg-white shadow-xl rounded-xl">
       <div className="flex justify-center mb-8">
         <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M25 0C11.193 0 0 11.193 0 25C0 38.807 11.193 50 25 50C38.807 50 50 38.807 50 25C50 11.193 38.807 0 25 0ZM25 45C13.954 45 5 36.046 5 25C5 13.954 13.954 5 25 5C36.046 5 45 13.954 45 25C45 36.046 36.046 45 25 45Z" fill="#4A5568"/>

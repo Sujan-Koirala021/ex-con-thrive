@@ -73,7 +73,7 @@ const LegalSupport = () => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto mt-10 p-6 bg-white shadow-xl rounded-xl">
+    <div className="max-w-2xl mx-auto mt-10 mb-10 p-6 bg-white shadow-xl rounded-xl">
       <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">Legal Support</h2>
 
       {!selectedCategory ? (
