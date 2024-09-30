@@ -68,8 +68,7 @@ The Ex-Cons Thrive project aims to address these challenges by providing a perso
 
 
 ## Demo
-<video src="https://github.com/Sujan-Koirala021/eventique/assets/84112374/3893ea4d-6218-4d13-8b1f-fd91b797998a"></video>
-
+[Demo Video for Ex-cons-thrive](https://youtu.be/9dEDiFq6dMg)
 
 
 
