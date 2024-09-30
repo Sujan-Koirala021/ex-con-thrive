@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
+    "groq-sdk": "^0.7.0",
     "icons": "^1.0.0",
+    "lucide-react": "^0.446.0",
     "postcss": "^8.4.47",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
